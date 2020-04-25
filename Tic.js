@@ -2,14 +2,14 @@ var input = document.getElementById("userinput");
 var enter = document.getElementById("enter");
 
 
-
+//check the length of input 
 function inputlength() {
 	return input.value.length;
 }
 
 
 
-
+//check to ensure there is an input
 function addafterclick() {
 	if(inputlength()> 0 ) {
 		console.log("click");
@@ -17,14 +17,14 @@ function addafterclick() {
 
 }
 
-
+//check to ensure there is an input 
 function addafterEnter (event) {
 	if(inputlength()>0 && event.which === 13) {
 		console.log("enter");
 	}
 }
 	
-
+//I am not sure what we can do with this constructor 
 class Player { constructor(name) {
 	this.name = name;
 	
@@ -46,6 +46,7 @@ class Player { constructor(name) {
  // const Player = new Player("Oneill", "pro");
 //  const Gamer = new Gamer("Pete", "expert");
 
+//Event listeners, eventually want to use this to alert the name that is typed in
 input.addEventListener("keypress",addafterEnter);
 
 
