@@ -15,3 +15,31 @@ body {
     top: 15%;
 	background: linear-gradient(to right, red , yellow); /* Standard syntax */
 }
+
+
+td {
+	border: 2px solid #333;
+	height:  100px;
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 70px;
+	cursor: pointer;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+
+}
+
+.button1 {
+	transition-duration: 0.5s;
+	border-radius: 2px;
+	font-size: 15px;
+}
+
+.button:hover {
+	background-color: red;
+	color: white;
+}
