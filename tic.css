@@ -4,7 +4,7 @@
 }
 
 h1{
-	text-shadow: 2px 2px; 
+	text-shadow: 2px 2px;
 	color:white;
 	text-align: center;
 }
@@ -42,4 +42,8 @@ td {
 .button:hover {
 	background-color: red;
 	color: white;
+}
+
+.text{
+	text-align: center;
 }
