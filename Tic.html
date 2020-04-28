@@ -16,39 +16,41 @@
 		<li>Please click a box to start playing</li>
 		<li>When you get 3 in a row you will win</li>
 		<li>The game will reset after either you win or the Computer wins</li>
-		
+
      </ol>
 
-<h4>What is your name? 
+<h4>What is your name?
 	<input id="userinput" type="text" name="name"></input><button id="enter">Submit</button></h4>
-<h4>Please Select your player type<input type="radio" id="X" name="player" value ="X">
+<h4>Please Select your player type<input type="radio" class="player" id="X" name="player" value ="X">
      <label for="X"> X</label>
-     <input type="radio" id="O" name="player" value="O">
+     <input type="radio" class="player" id="O" name="player" value="O">
      <label for="O">O</label></h4>
 
- 
+
 <table>
 	<tr>
-		<td class="cell" id="0"></td>
-		<td class="cell" id="1"></td>
-		<td class="cell" id="2"></td>
+		<td class="cell" id="0">X</td>
+		<td class="cell" id="1">O</td>
+		<td class="cell" id="2">X</td>
 	</tr>
 	<tr>
-		<td class="cell" id="3"></td>
-		<td class="cell" id="4"></td>
-		<td class="cell" id="5"></td>
+		<td class="cell" id="3">X</td>
+		<td class="cell" id="4">X</td>
+		<td class="cell" id="5">X</td>
 	</tr>
 	<tr>
-		<td class="cell" id="6"></td>
-		<td class="cell" id="7"></td>
-		<td class="cell" id="8"></td>
+		<td class="cell" id="6">X</td>
+		<td class="cell" id="7">X</td>
+		<td class="cell" id="8">X</td>
 	</tr>
 </table>
 
 <div class ="endgame">
-	<div class="text"></div>
+	<div class="text">
+		<h2></h2>
+	</div>
 </div>
-<button class="button1"onClick="startGame()">Restart</button>
+<button class="button1" >Restart</button>
 </div>
      <script type="text/javascript" src="Tic.js"></script>
 </body>
